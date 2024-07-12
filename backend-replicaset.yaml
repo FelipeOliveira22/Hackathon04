@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: seu-usuario-dockerhub/backend-it_talent:latest
+        image: felipeoliveira22/backend-it_talent:latest
         env:
         - name: MYSQL_IP
           value: "localhost"
