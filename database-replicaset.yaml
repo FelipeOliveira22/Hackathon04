@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: database
-        image: seu-usuario-dockerhub/banco-it_talent:latest
+        image: felipeoliveira22/banco-it_talent:latest
         env:
         - name: MYSQL_ROOT_PASSWORD
           value: "1234"
